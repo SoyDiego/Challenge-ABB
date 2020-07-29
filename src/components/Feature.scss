@@ -1,0 +1,52 @@
+$success: #329A5D;
+$warning: #E9C704;
+$error: #F02F40;
+$bgFeature:#D2D2D2;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    color: white;
+    margin: 0 .5rem;
+
+    &__title {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__icon {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    &__iconRight {
+        margin-right: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.table {
+    width: 400px;
+    text-align: center;
+    background-color: $bgFeature;
+    margin: 0 .5rem .5rem .5rem;
+    padding: .5rem 0;
+
+    td {
+        padding: 1rem 1rem;
+        margin: 1rem 0;
+    }
+}
+
+.warning {
+    background-color: $warning;
+}
+
+.success {
+    background-color: $success;
+}
+
+.error {
+    background-color: $error;
+}
