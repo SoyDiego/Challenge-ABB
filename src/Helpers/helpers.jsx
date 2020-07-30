@@ -13,17 +13,19 @@ export const checkControl = (dev, devOut) => {
 
 	if (outOfMeasureMore50Percent) {
 		return {
-			icon: <FontAwesomeIcon icon={faTimesCircle} />,
+			icon: <FontAwesomeIcon icon={faTimesCircle} color="#F02F40" />,
 			message: "error",
 		};
 	} else if (outOfMeasureBetween31_49Percent) {
 		return {
-			icon: <FontAwesomeIcon icon={faExclamationCircle} />,
+			icon: (
+				<FontAwesomeIcon icon={faExclamationCircle} color="#E9C704" />
+			),
 			message: "warning",
 		};
 	} else {
 		return {
-			icon: <FontAwesomeIcon icon={faCheckCircle} />,
+			icon: <FontAwesomeIcon icon={faCheckCircle} color="#329A5D" />,
 			message: "success",
 		};
 	}

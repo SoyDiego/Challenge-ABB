@@ -6,7 +6,7 @@ Front-end Technical Test.
 
 You can see the demo here:
 [https://challenge-abb.netlify.app/](https://challenge-abb.netlify.app/).
-![challengeABB-ALTEN working](https://i.imgur.com/D4i2Ddc.png)
+![challengeABB-ALTEN working](https://i.imgur.com/aOUu1jp.png)
 
 ## Available Scripts
 
